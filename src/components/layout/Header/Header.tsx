@@ -4,7 +4,7 @@ import { Logo } from "../../icons";
 
 const Header = () => {
     return (
-        <header className="bg-slate-300">
+        <header className="bg-slate-400">
             <div className="container flex justify-between">
                 <div>
                     <Logo />

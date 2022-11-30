@@ -1,7 +1,7 @@
 const LoadingCharacters = async () => {
     return (
         <section>
-            is loading
+            Characters is loading..
         </section>
     );
 };

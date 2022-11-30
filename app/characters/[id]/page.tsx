@@ -4,7 +4,7 @@ async function fetchChar() {
 }
 
 function sleep(ms: number) {
-    throw new Error('damn bro')
+    // throw new Error('damn bro')
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
