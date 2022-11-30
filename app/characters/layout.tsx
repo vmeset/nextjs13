@@ -5,7 +5,6 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({children}) => {
   return (
     <section>
-        lay
         {children}
     </section>
   )

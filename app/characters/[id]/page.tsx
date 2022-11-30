@@ -3,8 +3,14 @@ async function fetchChar() {
     return res.json()
 }
 
+function sleep(ms: number) {
+    throw new Error('damn bro')
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 const Characters = async () => {
     const character = await fetchChar()
+    await sleep(2000)
     console.log(character.name);
     
 
